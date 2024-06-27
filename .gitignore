@@ -1,0 +1,10 @@
+# .gitignore
+*.pyc
+__pycache__
+db.sqlite3
+.DS_Store
+*.swp
+/static
+/media
+.env
+inventory-env/
