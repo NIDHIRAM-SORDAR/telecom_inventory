@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-primary">Bootstrap Test</h1>
+    <button class="btn btn-success" id="testBtn">Test jQuery</button>
+    <p id="result" class="mt-3"></p>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $("#testBtn").click(function() {
+            $("#result").text("jQuery is working!");
+        });
+    });
+</script>
+{% endblock %}
